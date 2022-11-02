@@ -1,0 +1,7 @@
+<div class="grid grid-cols-10 w-9/12 mx-auto gap-4 pt-20">
+    <ng-container *ngFor="let game of gamesDisplay">
+        <div class="mt-5 text-center col-span-12 lg:col-span-2 md:col-span-3 sm:col-span-4">
+            <app-game-item [data]="game"></app-game-item>
+        </div>
+    </ng-container>
+</div>

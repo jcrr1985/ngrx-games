@@ -1,0 +1,8 @@
+<div class="grid grid-cols-10 bg_gray content_top">
+    <ng-container *ngFor="let category of categories">
+        <div class="col-span-1 h-12 flex items-center justify-center cursor-pointer content-category"
+            (click)="setCategory(category)" [ngClass]="{'bg_green':category.name==categorySelected.name}">
+            <h1 class="text-white text-center">{{category.name}}</h1>
+        </div>
+    </ng-container>
+</div>

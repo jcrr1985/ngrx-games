@@ -1,0 +1,60 @@
+.image_new {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    width: 110px;
+    right: -6%;
+    top: -16px;
+}
+.img-container {
+    border-radius: 25px;
+    height: 20vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    // background-image: url(//stage.whgstage.com/scontent/images/games/NETHEWISHMASTER.jpg);
+}
+
+.img-container:hover {
+    .name_game {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        background-color: red;
+        border-radius: 0px 0px 20px 20px;
+        font-weight: 600;
+        font-size: medium;
+        color: rgb(173, 173, 173);
+        background-color: rgba(0, 0, 0, 0.756);
+        display: block;
+    }
+    .play_content {
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        border-radius: 2px;
+        font-weight: 600;
+        font-size: medium;
+        color: rgb(214, 214, 214);
+        background-color: rgba(104, 104, 104, 0.756);
+        display: block;
+    }
+}
+
+.jackpot_game {
+    width: 100%;
+    background-color: #373737ae;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    height: 30px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.name_game {
+    display: none;
+}
+
+.play_content {
+    display: none;
+}

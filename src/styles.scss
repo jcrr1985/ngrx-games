@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-image: url(https://img.freepik.com/free-vector/white-technology-background-concept_23-2148403398.jpg?w=2000);
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-button:increment,
+body::-webkit-scrollbar-button {
+    display: none;
+}
+
+body::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 1px solid #f1f2f3;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+.bg_green {
+    background-color: #8dc63f;
+}
+.bg_gray {
+    background-color: #373737;
+}
+.bg_white {
+    background-color: #ffffff;
+}
+.bg_white_2 {
+    background-color: #fcfcfc;
+}

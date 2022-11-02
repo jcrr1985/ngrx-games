@@ -1,0 +1,14 @@
+<div class="w-full box content-game">
+    <div class="img-container relative" [ngStyle]="{'background-image':'url('+data.image}">
+        <img *ngIf="newInCategory" class="image_new" src="../../../assets/vectors/SVG/Recurso 1.svg" alt="">
+        <div *ngIf="jackpot" class="jackpot_game bg_white_2">
+            &#163;{{jackpot | number}}
+        </div>
+        <div class="play_content">
+            <span class="font-bold text-lg">Play</span>
+        </div>
+        <div class="name_game">
+            {{data.name}}
+        </div>
+    </div>
+</div>
