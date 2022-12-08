@@ -12,10 +12,10 @@ export class GameService {
 
   }
   gameListLoad() {
-    return this.http.get(environment.list_url_games);
+    return this.http.get(environment?.list_url_games);
   }
   jackpotList() {
-    return this.http.get(environment.jackpot_list);
+    return this.http.get(environment?.jackpot_list);
   }
 
 }

@@ -28,8 +28,5 @@ export class GameItemComponent implements OnInit {
       if (found) this.jackpot = found.amount
       this.newInCategory = this.data.categories.includes('new') && state.appState.categorySelected.name != 'New Games';
     })
-
   }
-
-
 }
